@@ -36,4 +36,22 @@
     "url": "https://gitgud.io/ahsk/clewd/-/issues"
   },
   "dependencies": {}
+},{
+  "name": "copilot-tavern-connector",
+  "version": "1.0.0",
+  "description": "GitHub Copilot 与 Silly Tavern 连接器",
+  "main": "copilot-connector.js",
+  "scripts": {
+    "start": "node copilot-connector.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT"
 }
